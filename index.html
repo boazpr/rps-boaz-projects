@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors - 5 Rounds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Rock Paper Scissors</h1>
+    <h3>Round: <span id="round">1</span> / 5</h3>
+
+    <div class="choices">
+        <img src="https://cdn-icons-png.flaticon.com/512/3565/3565418.png"
+             onclick="playGame('rock')" class="choice">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/3565/3565425.png"
+             onclick="playGame('paper')" class="choice">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/3565/3565430.png"
+             onclick="playGame('scissors')" class="choice">
+    </div>
+
+    <div class="battle">
+        <div>
+            <h3>You</h3>
+            <img id="playerImg" class="battle-img">
+        </div>
+        <div>
+            <h3>Computer</h3>
+            <img id="computerImg" class="battle-img">
+        </div>
+    </div>
+
+    <h2 id="result"></h2>
+    <h3 id="score">Player: 0 | Computer: 0</h3>
+
+    <button onclick="resetGame()" class="reset">Reset Game</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
