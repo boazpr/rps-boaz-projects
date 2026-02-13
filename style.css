@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 600px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.choices img {
+    width: 100px;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.choices img:hover {
+    transform: scale(1.2);
+}
+
+.battle {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.battle-img {
+    width: 100px;
+    height: 100px;
+}
+
+.animate {
+    animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.reset {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e74a3b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
