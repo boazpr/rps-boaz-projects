@@ -4,9 +4,9 @@ let round = 1;
 const maxRounds = 5;
 
 const images = {
-    rock: "https://cdn-icons-png.flaticon.com/512/3565/3565418.png",
-    paper: "https://cdn-icons-png.flaticon.com/512/3565/3565425.png",
-    scissors: "https://cdn-icons-png.flaticon.com/512/3565/3565430.png"
+    rock: "images/rock.png",
+    paper: "images/paper.png",
+    scissors: "images/scissors.png"
 };
 
 function playGame(playerChoice) {
