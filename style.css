@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4e73df, #1cc88a);
+    background: linear-gradient(to right, #ffffff, #e9f3bc);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ body {
     margin-top: 15px;
     padding: 10px 20px;
     border: none;
-    background-color: #e74a3b;
+    background-color: #eaff77;
     color: white;
     border-radius: 8px;
     cursor: pointer;
